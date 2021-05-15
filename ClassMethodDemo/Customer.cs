@@ -8,7 +8,7 @@ namespace ClassMethodDemo
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
-        public string Lastname { get; set; }
-        public string NationalIdentity { get; set; }
+        public string LastName { get; set; }
+        public long NationalIdentity { get; set; }
     }
 }
