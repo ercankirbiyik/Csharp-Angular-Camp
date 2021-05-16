@@ -15,14 +15,12 @@ namespace OOP1
 
             Product product2 = new Product {Id=2, CategoryId=5, UnitInStock=5, ProductName="Sofa", UnitPrice=1200 };
 
-            ProductManager productManager = new ProductManager();
-            Console.WriteLine(product1.ProductName);
+            Product product3 = new Product { Id = 3, CategoryId = 5, UnitInStock = 200, ProductName = "Pen", UnitPrice = 20 };
 
+            ProductManager productManager = new ProductManager();
             productManager.Add(product1);
-           
-            productManager.Update(product1);
-           
-            productManager.Delete(product1);
+            productManager.Update(product2);
+            productManager.Delete(product3);
             
 
         }
